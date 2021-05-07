@@ -24,9 +24,48 @@ course
 └ README.md
 ```
 
+## 项目组织
+> 本部分需要具有一定git基础使用，同样可以通过跳过到下文的 [网页端](##网页端) 指引完成操作
 
+鉴于适合分享的资源多为实验、课设的代码，因此利用git的`submodule`方式进行组织，便于上传已建立的git项目、以及下载更新特定的git项目，对于减小项目体积尤为重要。
 
-## 下载
+[Git Tools - Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+
+### 上传
+
+在本地克隆本项目
+
+```bash
+git clone https://github.com/Monkey-Mouse/hust-resource.git
+```
+进入需要上传项目的路径，如：
+
+```bash
+cd hust-resource/计算机网络_AIA/labs
+```
+增加想要上传的项目做为submodule
+
+```bash
+git submodule add <项目的url>
+```
+
+之后再进行add、commit即可
+
+### 下载
+
+通过submodule可实现对特定项目的更新：
+
+同样在clone仓库到本地后，进入项目文件夹
+```bash
+git submodule update --remote <submodule的路径>
+```
+同样举例，对项目路径`hust-resource/计算机网络_AIA/labs`下的leyet项目进行更新，即为：
+
+```bash
+git submodule update --remote hust-resource/计算机网络_AIA/labs/leyet
+```
+## 网页端
+### 下载
 
 我们在这里介绍两种下载文件的方式：
 
@@ -35,7 +74,7 @@ course
 
 注：对于第一种方法而言，它需要使用者拥有github账号，并且该插件需要使用者的授权；而第二种方法虽然一次只能下载一个文件夹，但它并不需要使用者拥有github账号。
 
-## PR
+### 上传
 
 由于本项目体积很大，故推荐采用在 **GitHub Web 端直接上传** 的方式，具体操作如下：
 
