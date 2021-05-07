@@ -4,3 +4,6 @@
 [submodule "模式识别_AIA/codes/pattern-recognition"]
 	path = 模式识别_AIA/codes/pattern-recognition
 	url = https://github.com/easilylazy/pattern-recognition
+[submodule "电子课程设计/paper-count"]
+	path = 电子课程设计/paper-count
+	url = https://github.com/easilylazy/paper-count
