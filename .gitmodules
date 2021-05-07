@@ -1,3 +1,6 @@
 [submodule "计算机网络_AIA/labs/leyet"]
 	path = 计算机网络_AIA/labs/leyet
 	url = https://github.com/easilylazy/leyet
+[submodule "模式识别_AIA/codes/pattern-recognition"]
+	path = 模式识别_AIA/codes/pattern-recognition
+	url = https://github.com/easilylazy/pattern-recognition
