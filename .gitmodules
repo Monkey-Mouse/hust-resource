@@ -7,3 +7,7 @@
 [submodule "电子课程设计/paper-count"]
 	path = 电子课程设计/paper-count
 	url = https://github.com/easilylazy/paper-count
+
+[submodule "数据科学基础_AIA/data-science"]
+	path = 数据科学基础_AIA/data-science
+	url = https://github.com/easilylazy/data-science
